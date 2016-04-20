@@ -16,3 +16,8 @@ class TwibsItem(scrapy.Item):
     add = scrapy.Field()
     bio = scrapy.Field()
     tags = scrapy.Field()
+
+
+class MedicalItem(scrapy.Item):
+    icmcode = scrapy.Field()
+    name = scrapy.Field()

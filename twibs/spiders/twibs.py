@@ -31,12 +31,12 @@ class twibs_spider(scrapy.Spider):
     # def parse_start_url(self, response):
     #     return self.parse_dir_contents(response)
 
-    def parse_category(self, response):
-        //*[@id="l_page"]/div[2]/div[2]/h4
-        //*[@id="l_page"]/div[2]/div[18]
-        //*[@id="l_page"]/div[2]/li[14]
-        //*[@id="l_page"]/div[2]/li[15]
-        //*[@id="l_page"]/div[2]/li[29]
+    # def parse_category(self, response):
+    #     //*[@id="l_page"]/div[2]/div[2]/h4
+    #     //*[@id="l_page"]/div[2]/div[18]
+    #     //*[@id="l_page"]/div[2]/li[14]
+    #     //*[@id="l_page"]/div[2]/li[15]
+    #     //*[@id="l_page"]/div[2]/li[29]
 
 
     def parse(self, response):
